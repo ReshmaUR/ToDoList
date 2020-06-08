@@ -7,7 +7,7 @@
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/todo.css">
 </head>
-<body>
+<body style="background-color: black;">
     <!-- header -->
   <header class="navbar navbar-bright navbar-fixed-top" role="banner">
     <div class="container">
@@ -24,14 +24,19 @@
     </div>
     </header>
     <!-- end of header -->
-    <br><br><br><br><br>
+    <br><br><br>
+    <div id="content">
+      <h1 id="mainhead">To Do List...</h1>
+    </div>
     <table id="myTable">
         <tr>
-            <th>Serial No</th>
+            <!-- <th>Serial No</th>
             <th>Task To Do</th>
-            <th>Tick Here</th>
+            <th>Status</th>
+            <th>Tick Here</th> -->
         </tr>
     </table> 
+    
     <button id="done" onclick="valcheck();">Done</button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/todo.js"></script> 

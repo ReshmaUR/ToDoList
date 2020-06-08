@@ -37,11 +37,11 @@ a{
     padding: 40px;
     position: absolute;
     top: 50%;
-    left: 75%;
+    left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     border-radius: 50px;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
     z-index: 0;    
   }
   .box h1{
@@ -125,15 +125,26 @@ td {
 #one{
   margin-left: 880px;
 }
-/* .caret {
-  color:#fff;
+/*  for checkbox */
+input[type=checkbox]{
+  height: 20px;
+  width: 20px;
 }
-
-.navbar-toggle {
-  color:#fff;
-  border-width:0;
+/* done button */
+#done{
+  margin-top: 70px;
+  margin-left: 1130px;
+  margin-bottom: 30px;
+  width: 90px;
+  height: 35px;
+  border-radius: 20px;
+  position: sticky;
 }
-
-.navbar-toggle:hover {
-  background-color:#fff;
-} */
+/* heading of main page */
+#mainhead{
+  font-size: 100px;
+ font-weight: bolder;
+  padding-left: 340px;
+  font-family: Lucida Handwriting;
+  color: white;
+}
