@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* for all pages */
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+}
+a{
+  text-decoration: none;
+}
+/* for first page */
+#firsthead{
+    font-size: 180px;
+    font-family:Segoe Script;
+    text-shadow:0px 0px 0 rgb(237,237,237),1px 1px 0 rgb(230,230,230),2px 2px 0 rgb(222,222,222),3px 3px 0 rgb(214,214,214),4px 4px 0 rgb(207,207,207),5px 5px 0 rgb(199,199,199),6px 6px 0 rgb(191,191,191),7px 7px 0 rgb(184,184,184),8px 8px 0 rgb(176,176,176),9px 9px 0 rgb(169,169,169),10px 10px 0 rgb(161,161,161),11px 11px 0 rgb(153,153,153),12px 12px 0 rgb(146,146,146),13px 13px 0 rgb(138,138,138),14px 14px 0 rgb(130,130,130),15px 15px 0 rgb(123,123,123),16px 16px 0 rgb(115,115,115),17px 17px 0 rgb(107,107,107),18px 18px 0 rgb(100,100,100),19px 19px 0 rgb(92,92,92), 20px 20px 0 rgb(84,84,84),21px 21px 20px rgba(0,0,0,1),21px 21px 1px rgba(0,0,0,0.5),0px 0px 20px rgba(0,0,0,.2);
+    padding-left: 20px;
+    margin-top: 50px;
+}
+#firstbutton{
+    font-size: 60px;
+    font-family:Gabriola;
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 80px;
+    border-radius: 25px;
+    border-color: none;
+    margin-left: 1120px;
+    text-align: center;
+}
+/* for login page */
+.box{
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 50px;
+    background: rgba(0,0,0,0.6);
+    z-index: 0;    
+  }
+  .box h1{
+    color: white;
+    font-weight: 500;
+    font-family: MV Boli;
+  }
+  .entry{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .entry:focus{
+    width: 280px;
+    border-color: #2ecc71;
+  }
+  .sub{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .sub:hover{
+    background: #2ecc71;
+    color: black;
+  }
+  /* todo table */
+table {
+    width: 50%;
+    margin-left: 300px;
+    text-align: center;
+}
+th {
+    background: #f1f1f1;
+    font-weight: bold;
+    padding: 6px;
+    text-align: center;
+}
+td {
+    background: #f9f9f9;
+    padding: 6px;
+}
+/* header */
+.navbar-bright {
+  background-color:#111166;
+  color:#fff;
+  margin-bottom: 0;
+  border-width: 0;
+}
+
+.navbar-bright a {
+  color:white;
+  font-size:16px;
+  /* text-transform: uppercase; */
+  letter-spacing:.08em;
+  font-weight: bold;
+  font-family: Noto;
+}
+
+.navbar-bright li > a:hover {
+  background-color:#000044;
+}
+#one{
+  margin-left: 880px;
+}
+/* .caret {
+  color:#fff;
+}
+
+.navbar-toggle {
+  color:#fff;
+  border-width:0;
+}
+
+.navbar-toggle:hover {
+  background-color:#fff;
+} */

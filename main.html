@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do|Home</title>
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+<body>
+    <!-- header -->
+  <header class="navbar navbar-bright navbar-fixed-top" role="banner">
+    <div class="container">
+      <nav class="collapse navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#" id="one">To Do List</a>
+          </li>
+          <li>
+            <a href="login.html" id="two">Log Out</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <!-- end of header -->
+    <br><br><br><br><br>
+    <table id="myTable">
+        <tr>
+            <th>Serial No</th>
+            <th>Task To Do</th>
+            <th>Tick Here</th>
+        </tr>
+    </table> 
+    <button id="done" onclick="valcheck();">Done</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/todo.js"></script> 
+</body>
+</html>
